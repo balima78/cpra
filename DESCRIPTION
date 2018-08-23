@@ -1,0 +1,15 @@
+Package: cpra
+Type: Package
+Title: Calculated Panel Reactive Antibody with R
+Version: 0.1.0
+Author: Bruno A Lima
+Maintainer: Bruno A Lima <balima78@gmail.com>
+Description: The calculated Panel Reactive Antibody (cPRA) is an estimate for the probability of positive virtual CrossMatch, considering HLA typing of a given group of potential donors, based on the HLA antigens from which a transplant candidate is sensitized.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Date: 2018-07-31 
+URL: https://github.com/balima78
+RoxygenNote: 6.1.0
+Depends: tidyverse, R (>= 2.10)
+
