@@ -11,5 +11,5 @@ LazyData: true
 Date: 2018-07-31 
 URL: https://github.com/balima78
 RoxygenNote: 6.1.0
-Depends: tidyverse, R (>= 3.6)
+Depends: tidyverse, R (>= 3.4)
 
