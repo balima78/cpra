@@ -77,8 +77,10 @@ cpra1<-function(id = 1, sensib = acHLA,
   l<-list(Sa,Sb,Sdr,Sab,Sadr,Sbdr,Sabdr)
 
   round(
-    (1-(1-Sa-Sb-Sdr+Sab+Sadr+Sbdr-Sabdr)^2) * 100,
-    2)
+    max(1-(1-Sa)^2, 1-(1-Sb)^2, 1-(1-Sdr)^2,
+        1-(1-Sa-Sb+Sab)^2, 1-(1-Sa-Sdr+Sadr)^2, 1-(1-Sb-Sdr+Sbdr)^2,
+    (1-(1-Sa-Sb-Sdr+Sab+Sadr+Sbdr-Sabdr)^2)
+    ) * 100, 2)
 }
 
 
